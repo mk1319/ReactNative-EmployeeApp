@@ -5,8 +5,6 @@ const mongoose=require('mongoose')
 require('./schema')
 
 
-//password=Uvn5wnYkv3zjuYZt
-
 app.use(bodyparser.json())
 
 
@@ -15,7 +13,7 @@ const schema=mongoose.model("schema1")
 
 
 
-const mongooseUrl="mongodb+srv://fra:Uvn5wnYkv3zjuYZt@cluster0-uimfu.mongodb.net/test?retryWrites=true&w=majority"
+const mongooseUrl="mongodb+srv://fra:<Password>@cluster0-uimfu.mongodb.net/test?retryWrites=true&w=majority"
 
 mongoose.connect(mongooseUrl,{
     useNewUrlParser:true,
