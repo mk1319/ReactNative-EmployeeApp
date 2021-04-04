@@ -13,7 +13,7 @@ const schema=mongoose.model("schema1")
 
 
 
-const mongooseUrl="URL_"
+const mongooseUrl="mongodb+srv://fra:<Password>@cluster0-uimfu.mongodb.net/test?retryWrites=true&w=majority"
 
 mongoose.connect(mongooseUrl,{
     useNewUrlParser:true,
